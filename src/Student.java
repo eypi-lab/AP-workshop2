@@ -59,4 +59,9 @@ public class Student {
         }
         this.grade = grade;
     }
+
+    public void printStudentInfo() {
+        System.out.println(firstname + " " + lastname
+                + "\nID: " + id + "\nGRADE: " + grade);
+    }
 }
